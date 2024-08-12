@@ -22,6 +22,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+
 header.nav {
   display: flex;
   justify-content: space-between;
