@@ -6,7 +6,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,8 +13,9 @@ html {
 }
 
 body {
-  max-width: 1290px;
   font-family: "Poppins", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 header.nav {
   display: flex;
@@ -1067,6 +1067,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   position: relative;
+  margin-top: 50px;
 }
 
 .copyright {
