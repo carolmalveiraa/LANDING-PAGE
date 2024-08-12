@@ -1,0 +1,39 @@
+:root {
+  /* fonts */
+  --font-poppins: "Poppins";
+  --font-montserrat: "montserrat"
+
+  /* font sizes */
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-gray-100: #1e1e1e;
+  --color-gray-200: rgba(255, 255, 255, 0.65);
+  --color-crimson-100: #ff014f;
+  --color-white: #fff;
+
+  /* Paddings */
+  --padding-2xl: 21px;
+  --padding-lg: 18px;
+  --padding-2xs: 11px;
+  --padding-smi: 13px;
+
+  /* Border radiuses */
+  --br-22xl-8: 41.8px;
+  --br-3xs: 10px;
+
+  /* Keyword values */
+  scroll-behavior: auto;
+  scroll-behavior: smooth;
+
+  /* Global values */
+  scroll-behavior: inherit;
+  scroll-behavior: initial;
+  scroll-behavior: revert;
+  scroll-behavior: revert-layer;
+  scroll-behavior: unset;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+}
